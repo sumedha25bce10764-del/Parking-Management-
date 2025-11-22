@@ -9,7 +9,6 @@ CAR_SLOTS = 10
 BIKE_SLOTS = 5
 
 # The parking lot state is a simple list of dictionaries for simplicity
-# Each slot: {'id': 'C01', 'type': 'Car', 'is_occupied': False, 'vehicle_num': None, 'entry_time': None}
 parking_slots = []
 parking_history = [] # Stores finished sessions
 
